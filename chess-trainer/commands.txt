@@ -1,0 +1,10 @@
+chmod +x create_chess_folder_structure.sh
+./create_chess_folder_structure.sh
+
+mkdir test
+cd test
+npx create-react-app chess-trainer
+
+npm install react-chessboard chess.js
+
+python3 -m pip install fastapi uvicorn python-chess
